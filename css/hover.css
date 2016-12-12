@@ -1,0 +1,186 @@
+.section{width:60%; Margin:0 auto;text-align:center;}
+section
+{
+display:inline-block;
+
+border:1px solid #ccc;
+
+overflow:hidden;
+margin-right:10px;
+margin-bottom:20px;
+-moz-transition:all 0.5s ease;
+-webkit-transition:all 0.5s ease;
+-ms-transition:all 0.5s ease;
+-o-transition:all 0.5s ease;
+transition:all 0.5s ease;
+  width: 100%;  
+  height:550px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+  background-color: #ffffff;
+
+}
+
+.slidertp
+{
+position:absolute;
+width:100%;
+height:50%;
+left:0px;
+top:0px;
+background:#fff;
+overflow:hidden;
+background:#3bc4c7;
+-moz-transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-ms-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+}
+.slidertp title{bottom:-20px;}
+.sliderbt
+{
+position:absolute;
+width:100%;
+height:50%;
+left:0px;
+bottom:0px;
+background:#3bc4c7;
+-moz-transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-ms-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+overflow:hidden;
+}
+
+.sliderbt title{top:-22px;}
+section:hover{
+cursor:pointer;
+box-shadow:0px 0px 10px #ccc;
+-moz-transition:all 0.5s ease;
+-webkit-transition:all 0.5s ease;
+-ms-transition:all 0.5s ease;
+-o-transition:all 0.5s ease;
+transition:all 0.5s ease;
+}
+
+section:hover .slidertp
+{
+top:-50%;
+transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-ms-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+}
+section:hover .sliderbt
+{
+bottom:-50%;
+transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-ms-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+}
+
+
+
+
+
+
+.hoverh1{
+position:absolute;
+display:block;
+bottom:-20px;
+text-align:center;
+width:100%;
+
+font-size: 300%; 
+font-family: HoverTitle;
+}
+.hoverh2{
+position:absolute;
+display:block;
+top:-20px;
+text-align:center;
+width:100%;
+
+font-size: 300%; 
+font-family: HoverTitle;
+}
+
+@font-face{
+font-family: HoverTitle;
+    src: url(../font/monofonto.ttf);
+
+}
+
+
+.slidertp2
+{
+position:absolute;
+width:100%;
+height:50%;
+left:0px;
+top:0px;
+background:#fff;
+overflow:hidden;
+background:#c81b14;
+-moz-transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-ms-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+}
+.slidertp2 title{bottom:-20px;}
+.sliderbt2
+{
+position:absolute;
+width:100%;
+height:50%;
+left:0px;
+bottom:0px;
+background:#c81b14;
+-moz-transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-ms-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+overflow:hidden;
+}
+
+.sliderbt2 title{top:-22px;}
+section:hover{
+cursor:pointer;
+box-shadow:0px 0px 10px #ccc;
+-moz-transition:all 0.5s ease;
+-webkit-transition:all 0.5s ease;
+-ms-transition:all 0.5s ease;
+-o-transition:all 0.5s ease;
+transition:all 0.5s ease;
+}
+
+section:hover .slidertp2
+{
+top:-50%;
+transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-ms-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+}
+section:hover .sliderbt2
+{
+bottom:-50%;
+transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-ms-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+}
